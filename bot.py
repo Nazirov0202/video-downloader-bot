@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+os.system("apt-get install -y ffmpeg > /dev/null 2>&1")
 import asyncio
 import logging
 from pathlib import Path
